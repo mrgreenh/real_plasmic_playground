@@ -205,7 +205,7 @@ function PlasmicFeatures__RenderFunc(props: {
                         className={classNames(defaultcss.all, sty.box__jTtrs)}
                       >
                         <LinkButton
-                          text={"Start free trial"}
+                          text={"Yo yo yo yo"}
                           type={"solidBlue" as const}
                         />
 

@@ -96,16 +96,6 @@ function PlasmicTopSection__RenderFunc(props: {
             >
               {"Make your website"}
             </div>
-
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__b8Fu7
-              )}
-            >
-              {"wonderful"}
-            </div>
           </div>
 
           <div
@@ -127,17 +117,27 @@ function PlasmicTopSection__RenderFunc(props: {
           className={classNames(defaultcss.all, sty.box___4Qeq2)}
         >
           <LinkButton
-            className={classNames("__wab_instance", sty.linkButton__r0FTr)}
-            text={"Start free trial"}
-            type={"solidBlue" as const}
-          />
-
-          <LinkButton
             className={classNames("__wab_instance", sty.linkButton__l0HKw)}
             text={"Learn more"}
             type={"solidBlack" as const}
           />
+
+          <LinkButton
+            className={classNames("__wab_instance", sty.linkButton__r0FTr)}
+            text={"La la la la laaaaaa!"}
+            type={"solidBlue" as const}
+          />
         </p.Stack>
+
+        <div
+          className={classNames(
+            defaultcss.all,
+            defaultcss.__wab_text,
+            sty.box__b8Fu7
+          )}
+        >
+          {"wonderful"}
+        </div>
 
         <div className={classNames(defaultcss.all, sty.box__sgF64)}>
           <img
